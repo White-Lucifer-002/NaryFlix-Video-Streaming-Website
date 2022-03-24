@@ -1,0 +1,133 @@
+.image_3{
+    width: 800px;
+    height: 450px;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px 2px #B026FF;
+}
+
+.btn_1{
+    cursor:pointer;
+    transition-duration: 0.5s;
+    padding: 10px 20px;
+    text-align: center;
+    background-color:lightcoral;
+    color:firebrick;
+    border: 1px solid crimson;
+    border-radius: 5px;
+}
+
+.btn_1:hover{
+    color: white;
+    background-color:red;
+}
+
+.btn_2{
+    cursor:pointer;
+    transition-duration: 0.5s;
+    position: relative;
+    padding: 15px 15px;
+    text-align: center;
+    width: 250px;
+    background-color:dodgerblue;
+    color:floralwhite;
+    border: 1px solid blue;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: block;
+}
+
+.btn_2:after {
+    content: "»";
+    position: absolute;
+    opacity: 0; 
+    top: 14px;
+    right: -6px;
+    transition: 0.5s;
+}
+
+.btn_2:hover{
+    color: white;
+    background-color:deepskyblue;
+}
+
+.btn_2:hover:after {
+    opacity: 1;
+    right: 20px;
+}
+
+.cont-home{
+    margin-top: 10vh;
+}
+.flexy{
+    padding-top: 10vh;
+    height: fit-content;
+    width: 85vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexy-btn{
+    margin: 40px;
+    width: 85vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.right-home{
+    margin-top: 15vh;
+}
+
+.p_1{
+    text-align: center;
+}
+
+.ifloggedin{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    font-family: 'Pacifico', 'cursive';
+}
+
+.ft_1{
+    font-family:'Trebuchet MS';
+    font-size: xx-large;
+    color:blue;
+}
+
+.ft_2{
+    font-family:'Trebuchet MS';
+    font-size: xx-large;
+}
+
+.ft_3{
+    font-family:'Calibri';
+}
+
+.ft_4{
+    font-family:'Trebuchet MS';
+    color:blue;
+}
+
+.ft_5{
+    padding-left: 20px;
+    font-family:'Segoe UI';
+    margin: 20px;
+}
+
+.ft_6{
+    padding-left: 30px;
+    font-family:'Arial';
+    margin: 10px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.ft_7{
+    float:right;
+}
+
+.btnn{
+    text-decoration: none;
+}
+
+.welcome_msg{
+    font-family: 'PT Sans Caption', sans-serif;
+}

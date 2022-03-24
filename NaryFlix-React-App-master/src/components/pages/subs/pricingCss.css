@@ -1,0 +1,126 @@
+.subs-page{
+  color: #111;
+  min-width: 320px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  position: relative;
+  padding: 50px 20px;
+}
+
+.block{
+	display: flex;
+	justify-content: space-around;
+}
+
+.pricing {
+	width: 25vw;
+	text-align: center;
+	border: 1px solid #db07ee;
+	border-radius:1rem;
+	box-shadow: 2px 1px 5px 8px #e962f5;
+	color: #777;
+	font-size: 14px;
+	padding-left: 0;
+	margin-bottom: 30px;
+  	font-family: 'Lato';
+}
+
+.pricing li img {
+	display: block;
+	margin: auto;
+	height: 100%;
+	width: 100%;
+	border-radius: 1rem;
+}
+
+.pricing li {
+	list-style: none;
+	padding: 13px;
+}
+
+.pricing li + li {
+	border-top: 2px solid #eb4afa;
+}
+
+.pricing big {
+	font-size: 32px;
+}
+
+.pricing span {
+	font-size: 12px;
+	color: #999;
+	font-weight: normal;
+}
+
+
+.pricing .button {
+	width: auto;
+	margin: auto;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 50px;
+	text-decoration: none;
+	padding: 9px 24px;
+	opacity: 1;
+	color: white;
+	transition: opacity .2s ease;
+    outline: none;
+}
+
+.pricing button:hover {
+	opacity: .9;
+}
+
+.pricing button:active {
+	box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* pricing color */
+.p-green big,
+.p-green h3 {
+	color: #ff14af;
+}
+
+.p-green .button {
+	background: #ff14af;
+}
+
+.p-green .button:hover{
+	box-shadow: 1px 1px 2px 2px #ff14af;
+	color: #ff14af;
+}
+
+.p-yel big,
+.p-yel h3 {
+	color: #ffbb42;
+}
+
+.p-yel .button {
+	background: #ffbb42;
+}
+
+.p-yel .button:hover{
+	box-shadow: 1px 1px 2px 2px #ffbb42;
+	color: #ffbb42;
+}
+
+.pricing .quality{
+	font-weight: 600;
+	font-size: larger;
+}
+
+.pricing .qual{
+	font-weight: 900;
+	font-size: larger;
+	color: rgb(92, 138, 238);
+}
+
+.pricing li:nth-of-type(3){
+	font-size: larger;
+}
+
+.pricing li:nth-of-type(1){
+	height: 30vh;
+	width: 25vw;
+}

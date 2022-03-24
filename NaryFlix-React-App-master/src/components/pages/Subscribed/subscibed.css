@@ -1,0 +1,38 @@
+.subs-master{
+    height: 100vh;
+    width: 100%;
+    padding-top: 10vh;
+}
+
+.subs-container{
+    margin: 0 auto;
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 5px 5px #B026FF;
+}
+
+.subs-right{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subs-left{
+    border-right: 1px solid #B026FF;
+    margin: 0 auto;
+    width: 40%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subs-left img{
+    height: 50%;
+    width: 40%;
+}

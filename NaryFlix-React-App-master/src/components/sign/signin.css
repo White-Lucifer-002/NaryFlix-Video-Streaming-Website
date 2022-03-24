@@ -1,0 +1,56 @@
+.box{
+    width: 500px;
+    padding: 1.1rem;
+    border-radius: .7rem;   
+}
+
+.box-title {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+}
+
+.shape {
+    position: absolute;
+    width: 130px;
+    top: .0rem;
+    left: .5rem;
+}
+
+input[type = text],input[type = password]{
+    border: 2px solid rebeccapurple;
+    border-radius: 7px;
+}
+
+input[type = text]:hover{
+    border: 2px solid blue;
+}
+
+input[type = password]:hover{
+    border: 2px solid blue;
+}
+
+label{
+    display:block;
+    padding: 3px 6px;
+    text-align: center;
+    width: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:chartreuse;
+    font-weight: bold;
+}
+
+button{
+    cursor: pointer;
+    transition-duration: 0.5s;
+    padding: 10px 20px;
+    text-align: center;
+    background-color:lightblue;
+    color:darkcyan;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+button:hover{
+    color: white;
+    background-color:darkturquoise;
+}
